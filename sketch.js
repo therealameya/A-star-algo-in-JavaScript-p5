@@ -133,6 +133,7 @@ function findPath(){
 
                       noLoop();
               console.log("Path Found !!!");
+              alert("Path Found !!!");
             }
             closedSet.push(current);
             removeItemArray(openSet,current);
@@ -164,6 +165,7 @@ function findPath(){
       }
         else{
           console.log("Path Not Found!!")
+          alert("No Path Available !!!");
           pathNotFound=true;
           noLoop();
         }
