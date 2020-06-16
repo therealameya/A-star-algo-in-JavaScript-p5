@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <style>
+  	canvas {
+  border: 2px;
+  border-style: solid;
+}
+p {
+  margin-left: 30px;
+}
+div {
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+h1{
+	margin-left: 20px;
+}
+</style>
+  <body>
+  	<h1>A* Algorithm
+  		<br>
+  		
+  		  <p style="font-weight: normal;font-size:18px;">Draw walls on the grid using mouse.
+  		  <p style="font-weight: normal;font-size:18px;">Press start button to run A* algorithm.
+  		  <p style="font-weight: normal;font-size:18px;">Green Box : Start Point, Purle Box : End point.
+  		  <p style="font-weight: normal;font-size:18px;">Note: This program will consider path between diagonal wall</p> 
+
+<div>
+  		  <button onclick="setFlag()">Start</button>
+  		  <button onClick="window.location.reload();"> Reset</button>
+  		</div>
+  </body>
+</html>
